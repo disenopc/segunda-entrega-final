@@ -1,0 +1,100 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+nav {
+    background-image: linear-gradient(to right, rgba(250, 112, 153, 0.692) 0%, rgba(254, 225, 64, 0.699) 100%), url(../images/background.jpg);
+    margin-top: auto;
+}
+
+main {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+}
+
+header {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.headerLogo {
+    width: 100px;
+    margin-left: 20px;
+}
+
+#menu li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#main {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+#mifoto {
+    width: 80%;
+}
+
+#botonContacto a {
+    color: white;
+    text-decoration: none;
+}
+
+#primerParrafo {
+    font-size: 20px;
+    margin-left: 55%;
+    margin-right: 55%;
+    margin-bottom: 0;
+}
+
+#tituloHi {
+    color: #EBC81A;
+}
+
+#titulos {
+    color: gray;
+}
+
+.col img {
+    width: 70%;
+}
+
+#redireccionContacto {
+    font-size: 35px;
+    color: #EB02B4;
+}
+
+#redireccion {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+#redireccionaContacto {
+    font-size: 35px;
+    color: #EB02B4;
+}
+
+#labelNewsletter {
+    font-size: 30px;
+    color: #EBC81A;
+}
+
+#footerLogo {
+    width: 90px;
+}
+
+#footerFin {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
