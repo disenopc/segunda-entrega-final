@@ -2057,7 +2057,7 @@ progress {
     color: #212529;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid #EBC81A;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -2405,8 +2405,8 @@ textarea.form-control-lg {
 }
 
 .form-check-input:checked {
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    background-color: #EBC81A;
+    border-color: #EBC81A;
 }
 
 .form-check-input:checked[type=checkbox] {
