@@ -22,13 +22,12 @@ header {
 }
 
 .headerLogo {
-    width: 100px;
+    width: 200px;
     margin-left: 20px;
 }
 
 #menu li a {
     font-size: 18px;
-    font-weight: bold;
     color: gray;
 }
 
@@ -90,11 +89,16 @@ header {
     color: #EBC81A;
 }
 
-#footerLogo {
-    width: 90px;
-}
-
 #footerFin {
     background-image: url(../images/background.jpg);
     background-size: cover;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+    color: #EB02B4;
 }
