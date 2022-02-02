@@ -36,7 +36,8 @@ header {
     font-weight: bold;
 }
 
-#main {
+#main,
+.footerFinP {
     background-image: url(../images/background.jpg);
     background-size: cover;
 }
@@ -69,29 +70,24 @@ header {
     width: 70%;
 }
 
-#redireccionContacto {
+.redireccionContacto {
     font-size: 35px;
     color: #EB02B4;
 }
 
-#redireccion {
+.redireccion {
     background-image: url(../images/background.jpg);
     background-size: cover;
 }
 
-#redireccionaContacto {
-    font-size: 35px;
+.redireccionaContacto {
+    font-size: 30px;
     color: #EB02B4;
 }
 
 #labelNewsletter {
     font-size: 30px;
     color: #EBC81A;
-}
-
-#footerFin {
-    background-image: url(../images/background.jpg);
-    background-size: cover;
 }
 
 a:hover {
@@ -101,4 +97,18 @@ a:hover {
 .nav-link:hover {
     font-weight: bold;
     color: #EB02B4;
+}
+
+a.text-light {
+    text-decoration: none;
+}
+
+@media (max-width: 575.98px) {
+    #main,
+    .footerFinP {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
 }
