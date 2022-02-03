@@ -9,13 +9,6 @@ nav {
     margin-top: auto;
 }
 
-main {
-    background-image: url(../images/background.jpg);
-    background-size: cover;
-    overflow: hidden;
-    position: relative;
-}
-
 header {
     background-image: url(../images/background.jpg);
     background-size: cover;
@@ -36,19 +29,10 @@ header {
     font-weight: bold;
 }
 
-#main,
+.main,
 .footerFinP {
     background-image: url(../images/background.jpg);
     background-size: cover;
-}
-
-#mifoto {
-    width: 80%;
-}
-
-#botonContacto a {
-    color: white;
-    text-decoration: none;
 }
 
 #primerParrafo {
