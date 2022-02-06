@@ -92,7 +92,17 @@
         display: none;
     }
     
+    .redes:hover {
+        width: 50px;
+        transition: 0.9s;
+    }
+    
     @media (max-width: 575.98px) {
+        .headerLogo {
+            width: 200px;
+            margin-left: 150px;
+            ;
+        }
         .main,
         .footerFinP {
             display: flex;
