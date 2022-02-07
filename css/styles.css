@@ -72,7 +72,7 @@
             color: #EB02B4;
         }
         
-        #labelNewsletter {
+        .labelNewsletter {
             font-size: 30px;
             color: #EBC81A;
         }
@@ -132,6 +132,9 @@
             .tituloHi {
                 margin: 0;
                 padding: 0;
+            }
+            .redireccionContacto {
+                font-weight: bold;
             }
         }
         /*TRANSICIONES, TRANSFORMACIONES*/
