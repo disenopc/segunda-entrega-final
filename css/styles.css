@@ -104,8 +104,16 @@
             padding: 15px;
         }
         
-        .seguimeEnRedes {
+        .seguimeEnRedesDos {
+            font-weight: bold;
+            font-size: 25px;
+            color: #EB02B4
+        }
+        
+        .seguimeEnRedesDosA {
+            font-style: italic;
             color: #EB02B4;
+            font-size: 20px;
         }
         
         .footerLogo img {
