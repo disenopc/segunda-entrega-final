@@ -5,13 +5,13 @@
         }
         
         nav {
-            background-image: linear-gradient(to right, rgba(250, 112, 153, 0.692) 0%, rgba(254, 225, 64, 0.699) 100%), url(../images/background.jpg);
+            background-image: linear-gradient(to right, rgba(250, 112, 153, 0.692) 0%, rgba(254, 225, 64, 0.699) 100%), url(../images/gris-mas-claro.jpg);
             margin-top: auto;
         }
         /*HEADER*/
         
         header {
-            background-image: url(../images/background.jpg);
+            background-image: url(../images/gris-mas-claro.jpg);
             background-size: cover;
         }
         
@@ -33,7 +33,7 @@
         
         .main,
         .footerFinP {
-            background-image: url(../images/background.jpg);
+            background-image: url(../images/gris-mas-claro.jpg);
             background-size: cover;
         }
         
@@ -73,7 +73,7 @@
         }
         
         .redireccion {
-            background-image: url(../images/background.jpg);
+            background-image: url(../images/gris-mas-claro.jpg);
             background-size: cover;
         }
         
@@ -94,12 +94,12 @@
         .seguimeEnRedesDos {
             font-weight: bold;
             font-size: 25px;
-            color: #EB02B4
+            color: #EBC81A
         }
         
         .seguimeEnRedesDosA {
             font-style: italic;
-            color: #EB02B4;
+            color: #EBC81A;
             font-size: 20px;
         }
         /*FOOTER*/
@@ -153,7 +153,7 @@
         
         .nav-link:hover {
             font-weight: bold;
-            color: #EB02B4;
+            color: #EBC81A;
         }
         
         .redes:hover {
