@@ -1,129 +1,145 @@
-    body {
-        font-family: 'Raleway', sans-serif;
-        width: 100%;
-        overflow-x: hidden;
-    }
-    
-    nav {
-        background-image: linear-gradient(to right, rgba(250, 112, 153, 0.692) 0%, rgba(254, 225, 64, 0.699) 100%), url(../images/background.jpg);
-        margin-top: auto;
-    }
-    
-    header {
-        background-image: url(../images/background.jpg);
-        background-size: cover;
-    }
-    
-    .headerLogo {
-        width: 200px;
-        margin-left: 20px;
-    }
-    
-    #menu li a {
-        font-size: 18px;
-        color: gray;
-    }
-    
-    #menu button {
-        font-size: 18px;
-        font-weight: bold;
-    }
-    
-    .main,
-    .footerFinP {
-        background-image: url(../images/background.jpg);
-        background-size: cover;
-    }
-    
-    #primerParrafo {
-        font-size: 20px;
-        margin-left: 55%;
-        margin-right: 55%;
-        margin-bottom: 0;
-    }
-    
-    .tituloHi {
-        color: #EBC81A;
-        display: inline-block;
-    }
-    
-    #titulos {
-        color: gray;
-    }
-    
-    .col img {
-        width: 70%;
-    }
-    
-    .redireccionContacto {
-        font-size: 35px;
-        color: #EB02B4;
-    }
-    
-    .redireccion {
-        background-image: url(../images/background.jpg);
-        background-size: cover;
-    }
-    
-    .redireccionaContacto {
-        font-size: 30px;
-        color: #EB02B4;
-    }
-    
-    #labelNewsletter {
-        font-size: 30px;
-        color: #EBC81A;
-    }
-    
-    a:hover {
-        font-weight: bold;
-    }
-    
-    .nav-link:hover {
-        font-weight: bold;
-        color: #EB02B4;
-    }
-    
-    a.text-light {
-        text-decoration: none;
-    }
-    
-    .slide {
-        display: none;
-    }
-    
-    .redes:hover {
-        width: 50px;
-        transition: 0.9s;
-    }
-    
-    @media (max-width: 575.98px) {
+        body {
+            font-family: 'Raleway', sans-serif;
+            width: 100%;
+            overflow-x: hidden;
+        }
+        
+        nav {
+            background-image: linear-gradient(to right, rgba(250, 112, 153, 0.692) 0%, rgba(254, 225, 64, 0.699) 100%), url(../images/background.jpg);
+            margin-top: auto;
+        }
+        
+        header {
+            background-image: url(../images/background.jpg);
+            background-size: cover;
+        }
+        
         .headerLogo {
             width: 200px;
-            margin-left: 150px;
-            ;
+            margin-left: 20px;
         }
+        
+        #menu li a {
+            font-size: 18px;
+            color: gray;
+        }
+        
+        #menu button {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
         .main,
         .footerFinP {
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            justify-content: center;
+            background-image: url(../images/background.jpg);
+            background-size: cover;
         }
-        .carrousel {
-            display: block;
+        
+        .primerParrafo {
+            font-size: 20px;
+            margin-left: 55%;
+            margin-right: 55%;
+            margin-bottom: 0;
         }
-        .servicios {
-            display: flex;
-            flex-direction: column;
+        
+        .tituloHi {
+            color: #EBC81A;
+            display: inline-block;
+            padding-top: 5%;
+            font-size: 80px;
         }
-    }
-    /*TRANSICIONES, TRANSFORMACIONES*/
-    
-    .tituloHi {
-        margin: 0 0.5rem;
-        animation: heartBeat;
-        /* referring directly to the animation's @keyframe declaration */
-        animation-duration: 5s;
-        /* don't forget to set a duration! */
-    }
+        
+        #titulos {
+            color: gray;
+        }
+        
+        .col img {
+            width: 70%;
+        }
+        
+        .redireccionContacto {
+            font-size: 35px;
+            color: #EB02B4;
+        }
+        
+        .redireccion {
+            background-image: url(../images/background.jpg);
+            background-size: cover;
+        }
+        
+        .redireccionaContacto {
+            font-size: 30px;
+            color: #EB02B4;
+        }
+        
+        #labelNewsletter {
+            font-size: 30px;
+            color: #EBC81A;
+        }
+        
+        a:hover {
+            font-weight: bold;
+        }
+        
+        .nav-link:hover {
+            font-weight: bold;
+            color: #EB02B4;
+        }
+        
+        a.text-light {
+            text-decoration: none;
+        }
+        
+        .slide {
+            display: none;
+        }
+        
+        .redes:hover {
+            width: 50px;
+            transition: 0.9s;
+        }
+        
+        .servicios h3 {
+            margin: 30px;
+            padding: 15px;
+        }
+        
+        .seguimeEnRedes {
+            color: #EB02B4;
+        }
+        
+        @media (max-width: 575.98px) {
+            .headerLogo {
+                width: 200px;
+                margin-left: 150px;
+                ;
+            }
+            .main,
+            .footerFinP {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                justify-content: center;
+            }
+            .servicios h3 {
+                margin: 5px;
+                padding: 5px;
+            }
+            .primerParrafo {
+                margin: 0px;
+                padding: 0px;
+            }
+            .tituloHi {
+                margin: 0;
+                padding: 0;
+            }
+        }
+        /*TRANSICIONES, TRANSFORMACIONES*/
+        
+        .tituloHi {
+            margin: 0 0.5rem;
+            animation: heartBeat;
+            /* referring directly to the animation's @keyframe declaration */
+            animation-duration: 5s;
+            /* don't forget to set a duration! */
+        }
