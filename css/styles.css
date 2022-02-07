@@ -108,6 +108,10 @@
             color: #EB02B4;
         }
         
+        .footerLogo img {
+            width: 200px;
+        }
+        
         @media (max-width: 575.98px) {
             .headerLogo {
                 width: 200px;
