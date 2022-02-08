@@ -57,85 +57,89 @@
     </div>
     <!--Fin Titulo-->
     <!--Inicio de Formulario-->
-    <center>
-        <form class="container-fluid m-5 shadow-lg p-3 mb-5 bg-body rounded" style="width: 80%; ">
-            <legend>Datos Personales</legend>
-            <div class="row mb-3 ">
-                <label for="inputEmail3 " class="col-sm-2 col-form-label ">Nombre y Apellido</label>
-                <div class="col-sm-10 ">
-                    <input type="text " class="form-control " id="inputEmail3 ">
-                </div>
-            </div>
-            <div class="row mb-3 ">
-                <label for="inputEmail3 " class="col-sm-2 col-form-label ">Email</label>
-                <div class="col-sm-10 ">
-                    <input type="email " class="form-control " id="inputEmail3 ">
-                </div>
-            </div>
-            <legend>Datos de la entrevista</legend>
-            <fieldset class="row mb-3 ">
-                <legend class="col-form-label col-sm-2 pt-0 ">Tema a tratar</legend>
-                <div class="col-sm-10 ">
-                    <div class="form-check ">
-                        <input class="form-check-input " type="radio " name="gridRadios " id="gridRadios1 " value="option1 " checked>
-                        <label class="form-check-label " for="gridRadios1 ">
-                 Diseño/Actualización de sitio web</label>
-                    </div>
-                    <div class="form-check ">
-                        <input class="form-check-input " type="radio " name="gridRadios " id="gridRadios2 " value="option2 ">
-                        <label class="form-check-label " for="gridRadios2 ">
-                  Marketing digital y de contenidos</label>
-                    </div>
-                    <div class="form-check disabled ">
-                        <input class="form-check-input " type="radio " name="gridRadios " id="gridRadios3 " value="option3 ">
-                        <label class="form-check-label " for="gridRadios3 ">
-                  Publicidad en redes sociales</label>
-                    </div>
-                </div>
-            </fieldset>
-            <!-- Button trigger modal -->
 
-            <button type="button " class="btn btn-secondary bg-gradient my-5 " data-bs-toggle="modal " data-bs-target="#exampleModal ">
+    <form class="container-fluid m-5 shadow-lg p-3 mb-5 bg-body rounded " style="width: 80%; ">
+        <legend>Datos Personales</legend>
+        <div class="row mb-3 ">
+            <label for="inputEmail3 " class="col-sm-2 col-form-label ">Nombre y Apellido</label>
+            <div class="col-sm-10 ">
+                <input type="text " class="form-control " id="inputEmail3 ">
+            </div>
+        </div>
+        <div class="row mb-3 ">
+            <label for="inputEmail3 " class="col-sm-2 col-form-label ">Email</label>
+            <div class="col-sm-10 ">
+                <input type="email " class="form-control " id="inputEmail3 ">
+            </div>
+        </div>
+        <legend>Datos de la entrevista</legend>
+        <fieldset class="row mb-3 ">
+            <legend class="col-form-label col-sm-2 pt-0 ">Tema a tratar</legend>
+            <div class="col-3 pt-2">
+                <div class="form-check ">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                    <label class="form-check-label" for="flexRadioDefault1">
+                Diseño/Actualización de sitio web
+            </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                Marketing digital y de contenidos
+            </label>
+                </div>
+
+                <div class="form-check ">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                Publicidad en redes sociales
+            </label>
+                </div>
+            </div>
+        </fieldset>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-secondary bg-gradient my-5" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
             Fecha y hora sugerida para entrevista
-  </button>
+        </button>
 
-            <!-- Modal -->
-            <div class="modal fade " id="exampleModal " tabindex="-1 " aria-labelledby="exampleModalLabel " aria-hidden="true ">
-                <div class="modal-dialog ">
-                    <div class="modal-content ">
-                        <div class="modal-header ">
-                            <h5 class="modal-title " id="exampleModalLabel ">Fecha y hora sugerida para entrevista</h5>
-                            <button type="button " class="btn-close " data-bs-dismiss="modal " aria-label="Close "></button>
-                        </div>
-                        <div class="modal-body ">
-                            <input type="datetime-local " id="turno " name="turno " class="turno ">
-                        </div>
-                        <div class="modal-footer ">
-                            <button type="button " class="btn btn-secondary " data-bs-dismiss="modal ">Cerrar</button>
-                            <button type="button " class="btn btn-secondary ">Guardar los cambios</button>
-                        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Fecha y hora sugerida para entrevista</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body ">
+                        <input type="datetime-local " id="turno " name="turno " class="turno ">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-secondary">Guardar los cambios</button>
                     </div>
                 </div>
             </div>
-            <!-- Button trigger modal -->
-            <div class="mb-3 ">
-                <label for="exampleFormControlTextarea1 " class="form-label ">Otras aclaraciones</label>
-                <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
-            </div>
-            <div class="row mb-3 ">
-                <div class="col-sm-10 offset-sm-0 ">
-                    <div class="form-check ">
-                        <input class="form-check-input " type="checkbox " id="gridCheck1 ">
-                        <label class="form-check-label " for="gridCheck1 ">
+        </div>
+        <!-- Button trigger modal -->
+        <div class="mb-3 ">
+            <label for="exampleFormControlTextarea1 " class="form-label ">Otras aclaraciones</label>
+            <textarea class="form-control " id="exampleFormControlTextarea1 " rows="3 "></textarea>
+        </div>
+        <div class="row mb-3 ">
+            <div class="col-sm-10 offset-sm-0 ">
+                <div class="form-check ">
+                    <input class="form-check-input " type="checkbox " id="gridCheck1 ">
+                    <label class="form-check-label " for="gridCheck1 ">
                 Me gustaria suscribirme al Newsletter   
               </label>
-                    </div>
                 </div>
             </div>
-            <button type="submit " class="btn btn-secondary bg-gradient ">Enviar</button>
-            <button type="submit " class="btn btn-secondary bg-gradient ">Resetear</button>
-        </form>
-    </center>
+        </div>
+        <button type="submit " class="btn btn-secondary bg-gradient ">Enviar</button>
+        <button type="submit " class="btn btn-secondary bg-gradient ">Resetear</button>
+    </form>
+
 
     <!--Fin de Formulario-->
 
